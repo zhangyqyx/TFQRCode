@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="rcx-g3-zzm">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--二维码/条形码-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RmR-gp-fR7"/>
+                        <viewControllerLayoutGuide type="bottom" id="mSJ-7H-NGX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zbZ-3K-Eml">
+                                <rect key="frame" x="126" y="194" width="122" height="30"/>
+                                <state key="normal" title="生成二维码"/>
+                                <connections>
+                                    <action selector="generateQRCode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Buw-od-QgD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CU8-Oz-5ir">
+                                <rect key="frame" x="126" y="231" width="122" height="30"/>
+                                <state key="normal" title="生成条形码"/>
+                                <connections>
+                                    <action selector="generateBarcode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GvD-Na-zk2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUg-qu-yYx">
+                                <rect key="frame" x="126" y="311" width="122" height="30"/>
+                                <state key="normal" title="扫描二维码"/>
+                                <connections>
+                                    <action selector="scanQRCode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MGO-sd-quD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4mc-MZ-UJv">
+                                <rect key="frame" x="126" y="357" width="122" height="30"/>
+                                <state key="normal" title="扫描条形码"/>
+                                <connections>
+                                    <action selector="scanBarcode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5gZ-MM-uOg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrA-Ge-TCf">
+                                <rect key="frame" x="133" y="437" width="108" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="6H3-Y4-Mxz"/>
+                                    <constraint firstAttribute="height" constant="30" id="XHi-jD-he1"/>
+                                </constraints>
+                                <state key="normal" title="相册访问二维码"/>
+                                <connections>
+                                    <action selector="gotoAlbumVc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lPm-hG-pNf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4mc-MZ-UJv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="126" id="1bB-5N-a6S"/>
+                            <constraint firstAttribute="trailing" secondItem="GUg-qu-yYx" secondAttribute="trailing" constant="127" id="2bE-dE-I5B"/>
+                            <constraint firstItem="CU8-Oz-5ir" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3Ir-H8-JbX"/>
+                            <constraint firstItem="zbZ-3K-Eml" firstAttribute="top" secondItem="RmR-gp-fR7" secondAttribute="bottom" constant="130" id="CUF-z1-VU0"/>
+                            <constraint firstAttribute="trailing" secondItem="zbZ-3K-Eml" secondAttribute="trailing" constant="127" id="D0F-wF-fVt"/>
+                            <constraint firstItem="GUg-qu-yYx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="126" id="EG6-Gk-hQh"/>
+                            <constraint firstItem="zbZ-3K-Eml" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="126" id="M0N-d4-trS"/>
+                            <constraint firstAttribute="trailing" secondItem="4mc-MZ-UJv" secondAttribute="trailing" constant="127" id="O3b-Fs-OOn"/>
+                            <constraint firstItem="CU8-Oz-5ir" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="126" id="OS2-C0-Bt8"/>
+                            <constraint firstItem="zbZ-3K-Eml" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TgF-lc-wsi"/>
+                            <constraint firstItem="zrA-Ge-TCf" firstAttribute="top" secondItem="4mc-MZ-UJv" secondAttribute="bottom" constant="50" id="WiS-AX-q72"/>
+                            <constraint firstItem="4mc-MZ-UJv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fRo-ej-vVI"/>
+                            <constraint firstItem="GUg-qu-yYx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hcy-i5-GBk"/>
+                            <constraint firstItem="CU8-Oz-5ir" firstAttribute="top" secondItem="zbZ-3K-Eml" secondAttribute="bottom" constant="7" id="k5W-Hx-fag"/>
+                            <constraint firstItem="zrA-Ge-TCf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nW8-oB-yTX"/>
+                            <constraint firstItem="4mc-MZ-UJv" firstAttribute="top" secondItem="GUg-qu-yYx" secondAttribute="bottom" constant="16" id="qnd-Mp-iVY"/>
+                            <constraint firstAttribute="trailing" secondItem="CU8-Oz-5ir" secondAttribute="trailing" constant="127" id="saW-Pq-2Xf"/>
+                            <constraint firstItem="GUg-qu-yYx" firstAttribute="top" secondItem="CU8-Oz-5ir" secondAttribute="bottom" constant="50" id="ywP-7b-mB7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="二维码/条形码" id="t6N-nk-dYF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="456.80000000000001" y="117.39130434782609"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bho-UI-NGp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rcx-g3-zzm" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Yfy-0Q-2yp">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="mXv-0q-ybD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OPS-Kx-5hH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-470" y="117"/>
+        </scene>
+    </scenes>
+</document>

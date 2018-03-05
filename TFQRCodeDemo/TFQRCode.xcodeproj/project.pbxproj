@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		786116152016C1B200C2D690 /* TFQRCodeGenerateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 786116142016C1B200C2D690 /* TFQRCodeGenerateManager.m */; };
+		787D235B2043AEB200BCE7D4 /* TFBarcodeGenerateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 787D235A2043AEB200BCE7D4 /* TFBarcodeGenerateManager.m */; };
+		78844DC92043B07200A59C6C /* TFQRCodeGenerateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78844DC72043B07200A59C6C /* TFQRCodeGenerateController.m */; };
+		78844DCA2043B07200A59C6C /* TFQRCodeGenerateController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78844DC82043B07200A59C6C /* TFQRCodeGenerateController.xib */; };
+		78844DCE2043B5D200A59C6C /* TFBarcodeGenerateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78844DCC2043B5D200A59C6C /* TFBarcodeGenerateController.m */; };
+		78844DCF2043B5D200A59C6C /* TFBarcodeGenerateController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78844DCD2043B5D200A59C6C /* TFBarcodeGenerateController.xib */; };
+		78844DD22043D1A200A59C6C /* TFCodeScanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78844DD12043D1A200A59C6C /* TFCodeScanManager.m */; };
+		78844DE22043E9CD00A59C6C /* TFCodeHelperTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 78844DE12043E9CD00A59C6C /* TFCodeHelperTool.m */; };
+		78844DE32043E9CD00A59C6C /* TFCodeHelperTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 78844DE12043E9CD00A59C6C /* TFCodeHelperTool.m */; };
+		78844DE42043E9CD00A59C6C /* TFCodeHelperTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 78844DE12043E9CD00A59C6C /* TFCodeHelperTool.m */; };
+		78844DE72043EBB200A59C6C /* TFCodeScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78844DE62043EBB200A59C6C /* TFCodeScanningView.m */; };
+		78844DE82043EBB200A59C6C /* TFCodeScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78844DE62043EBB200A59C6C /* TFCodeScanningView.m */; };
+		78844DE92043EBB200A59C6C /* TFCodeScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78844DE62043EBB200A59C6C /* TFCodeScanningView.m */; };
+		78844DEE2043FE1F00A59C6C /* TFQRCodeScaningController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78844DED2043FE1F00A59C6C /* TFQRCodeScaningController.m */; };
+		78844DEF2043FE1F00A59C6C /* TFQRCodeScaningController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78844DED2043FE1F00A59C6C /* TFQRCodeScaningController.m */; };
+		78844DF02043FE1F00A59C6C /* TFQRCodeScaningController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78844DED2043FE1F00A59C6C /* TFQRCodeScaningController.m */; };
+		7893E2B7204508EB00454DE1 /* TFCodeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7893E2B5204508EB00454DE1 /* TFCodeDetailViewController.m */; };
+		7893E2B8204508EB00454DE1 /* TFCodeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7893E2B6204508EB00454DE1 /* TFCodeDetailViewController.xib */; };
+		7893E2BC2045246900454DE1 /* TFBarCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7893E2BA2045246900454DE1 /* TFBarCodeViewController.m */; };
+		7893E2C0204527CD00454DE1 /* TFCodeAlbumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7893E2BF204527CD00454DE1 /* TFCodeAlbumManager.m */; };
+		7893E2C420452CB500454DE1 /* TFCodeAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7893E2C220452CB500454DE1 /* TFCodeAlbumViewController.m */; };
+		7893E2C520452CB500454DE1 /* TFCodeAlbumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7893E2C320452CB500454DE1 /* TFCodeAlbumViewController.xib */; };
+		789401B22015D2660027BACF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 789401B12015D2660027BACF /* AppDelegate.m */; };
+		789401B52015D2660027BACF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789401B42015D2660027BACF /* ViewController.m */; };
+		789401B82015D2660027BACF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 789401B62015D2660027BACF /* Main.storyboard */; };
+		789401BA2015D2660027BACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789401B92015D2660027BACF /* Assets.xcassets */; };
+		789401BD2015D2660027BACF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 789401BB2015D2660027BACF /* LaunchScreen.storyboard */; };
+		789401C02015D2660027BACF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 789401BF2015D2660027BACF /* main.m */; };
+		789401CA2015D2670027BACF /* TFQRCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 789401C92015D2670027BACF /* TFQRCodeTests.m */; };
+		789401D52015D2670027BACF /* TFQRCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 789401D42015D2670027BACF /* TFQRCodeUITests.m */; };
+		789E8BA7204CE2A6005DB5A4 /* TFQRCode.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 789E8BA6204CE2A6005DB5A4 /* TFQRCode.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		789401C62015D2660027BACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 789401A52015D2660027BACF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 789401AC2015D2660027BACF;
+			remoteInfo = TFQRCode;
+		};
+		789401D12015D2670027BACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 789401A52015D2660027BACF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 789401AC2015D2660027BACF;
+			remoteInfo = TFQRCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		786116132016C1B200C2D690 /* TFQRCodeGenerateManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFQRCodeGenerateManager.h; sourceTree = "<group>"; };
+		786116142016C1B200C2D690 /* TFQRCodeGenerateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFQRCodeGenerateManager.m; sourceTree = "<group>"; };
+		787D23592043AEB200BCE7D4 /* TFBarcodeGenerateManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFBarcodeGenerateManager.h; sourceTree = "<group>"; };
+		787D235A2043AEB200BCE7D4 /* TFBarcodeGenerateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFBarcodeGenerateManager.m; sourceTree = "<group>"; };
+		78844DC62043B07200A59C6C /* TFQRCodeGenerateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFQRCodeGenerateController.h; sourceTree = "<group>"; };
+		78844DC72043B07200A59C6C /* TFQRCodeGenerateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFQRCodeGenerateController.m; sourceTree = "<group>"; };
+		78844DC82043B07200A59C6C /* TFQRCodeGenerateController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TFQRCodeGenerateController.xib; sourceTree = "<group>"; };
+		78844DCB2043B5D200A59C6C /* TFBarcodeGenerateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFBarcodeGenerateController.h; sourceTree = "<group>"; };
+		78844DCC2043B5D200A59C6C /* TFBarcodeGenerateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFBarcodeGenerateController.m; sourceTree = "<group>"; };
+		78844DCD2043B5D200A59C6C /* TFBarcodeGenerateController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TFBarcodeGenerateController.xib; sourceTree = "<group>"; };
+		78844DD02043D1A200A59C6C /* TFCodeScanManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFCodeScanManager.h; sourceTree = "<group>"; };
+		78844DD12043D1A200A59C6C /* TFCodeScanManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFCodeScanManager.m; sourceTree = "<group>"; };
+		78844DE02043E9CD00A59C6C /* TFCodeHelperTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFCodeHelperTool.h; sourceTree = "<group>"; };
+		78844DE12043E9CD00A59C6C /* TFCodeHelperTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFCodeHelperTool.m; sourceTree = "<group>"; };
+		78844DE52043EBB200A59C6C /* TFCodeScanningView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFCodeScanningView.h; sourceTree = "<group>"; };
+		78844DE62043EBB200A59C6C /* TFCodeScanningView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFCodeScanningView.m; sourceTree = "<group>"; };
+		78844DEB2043EBE200A59C6C /* TFCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFCode.h; sourceTree = "<group>"; };
+		78844DEC2043FE1F00A59C6C /* TFQRCodeScaningController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFQRCodeScaningController.h; sourceTree = "<group>"; };
+		78844DED2043FE1F00A59C6C /* TFQRCodeScaningController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFQRCodeScaningController.m; sourceTree = "<group>"; };
+		7893E2B4204508EB00454DE1 /* TFCodeDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFCodeDetailViewController.h; sourceTree = "<group>"; };
+		7893E2B5204508EB00454DE1 /* TFCodeDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFCodeDetailViewController.m; sourceTree = "<group>"; };
+		7893E2B6204508EB00454DE1 /* TFCodeDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TFCodeDetailViewController.xib; sourceTree = "<group>"; };
+		7893E2B92045246900454DE1 /* TFBarCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFBarCodeViewController.h; sourceTree = "<group>"; };
+		7893E2BA2045246900454DE1 /* TFBarCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFBarCodeViewController.m; sourceTree = "<group>"; };
+		7893E2BE204527CD00454DE1 /* TFCodeAlbumManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFCodeAlbumManager.h; sourceTree = "<group>"; };
+		7893E2BF204527CD00454DE1 /* TFCodeAlbumManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFCodeAlbumManager.m; sourceTree = "<group>"; };
+		7893E2C120452CB500454DE1 /* TFCodeAlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFCodeAlbumViewController.h; sourceTree = "<group>"; };
+		7893E2C220452CB500454DE1 /* TFCodeAlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFCodeAlbumViewController.m; sourceTree = "<group>"; };
+		7893E2C320452CB500454DE1 /* TFCodeAlbumViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TFCodeAlbumViewController.xib; sourceTree = "<group>"; };
+		789401AD2015D2660027BACF /* TFQRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFQRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		789401B02015D2660027BACF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		789401B12015D2660027BACF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		789401B32015D2660027BACF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		789401B42015D2660027BACF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		789401B72015D2660027BACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		789401B92015D2660027BACF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		789401BC2015D2660027BACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		789401BE2015D2660027BACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		789401BF2015D2660027BACF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		789401C52015D2660027BACF /* TFQRCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFQRCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		789401C92015D2670027BACF /* TFQRCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFQRCodeTests.m; sourceTree = "<group>"; };
+		789401CB2015D2670027BACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		789401D02015D2670027BACF /* TFQRCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFQRCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		789401D42015D2670027BACF /* TFQRCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFQRCodeUITests.m; sourceTree = "<group>"; };
+		789401D62015D2670027BACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		789E8BA6204CE2A6005DB5A4 /* TFQRCode.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TFQRCode.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		789401AA2015D2660027BACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789401C22015D2660027BACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789401CD2015D2670027BACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		789401A42015D2660027BACF = {
+			isa = PBXGroup;
+			children = (
+				789401AF2015D2660027BACF /* TFQRCode */,
+				789401C82015D2670027BACF /* TFQRCodeTests */,
+				789401D32015D2670027BACF /* TFQRCodeUITests */,
+				789401AE2015D2660027BACF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		789401AE2015D2660027BACF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				789401AD2015D2660027BACF /* TFQRCode.app */,
+				789401C52015D2660027BACF /* TFQRCodeTests.xctest */,
+				789401D02015D2670027BACF /* TFQRCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		789401AF2015D2660027BACF /* TFQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				789401E22015D2860027BACF /* TFQRCodeManager */,
+				789401B02015D2660027BACF /* AppDelegate.h */,
+				789401B12015D2660027BACF /* AppDelegate.m */,
+				789401B32015D2660027BACF /* ViewController.h */,
+				789401B42015D2660027BACF /* ViewController.m */,
+				78844DC62043B07200A59C6C /* TFQRCodeGenerateController.h */,
+				78844DC72043B07200A59C6C /* TFQRCodeGenerateController.m */,
+				78844DC82043B07200A59C6C /* TFQRCodeGenerateController.xib */,
+				78844DCB2043B5D200A59C6C /* TFBarcodeGenerateController.h */,
+				78844DCC2043B5D200A59C6C /* TFBarcodeGenerateController.m */,
+				78844DCD2043B5D200A59C6C /* TFBarcodeGenerateController.xib */,
+				78844DEC2043FE1F00A59C6C /* TFQRCodeScaningController.h */,
+				78844DED2043FE1F00A59C6C /* TFQRCodeScaningController.m */,
+				7893E2B92045246900454DE1 /* TFBarCodeViewController.h */,
+				7893E2BA2045246900454DE1 /* TFBarCodeViewController.m */,
+				7893E2C120452CB500454DE1 /* TFCodeAlbumViewController.h */,
+				7893E2C220452CB500454DE1 /* TFCodeAlbumViewController.m */,
+				7893E2C320452CB500454DE1 /* TFCodeAlbumViewController.xib */,
+				7893E2B4204508EB00454DE1 /* TFCodeDetailViewController.h */,
+				7893E2B5204508EB00454DE1 /* TFCodeDetailViewController.m */,
+				7893E2B6204508EB00454DE1 /* TFCodeDetailViewController.xib */,
+				789401B62015D2660027BACF /* Main.storyboard */,
+				789401B92015D2660027BACF /* Assets.xcassets */,
+				789401BB2015D2660027BACF /* LaunchScreen.storyboard */,
+				789401BE2015D2660027BACF /* Info.plist */,
+				789401BF2015D2660027BACF /* main.m */,
+			);
+			path = TFQRCode;
+			sourceTree = "<group>";
+		};
+		789401C82015D2670027BACF /* TFQRCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				789401C92015D2670027BACF /* TFQRCodeTests.m */,
+				789401CB2015D2670027BACF /* Info.plist */,
+			);
+			path = TFQRCodeTests;
+			sourceTree = "<group>";
+		};
+		789401D32015D2670027BACF /* TFQRCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				789401D42015D2670027BACF /* TFQRCodeUITests.m */,
+				789401D62015D2670027BACF /* Info.plist */,
+			);
+			path = TFQRCodeUITests;
+			sourceTree = "<group>";
+		};
+		789401E22015D2860027BACF /* TFQRCodeManager */ = {
+			isa = PBXGroup;
+			children = (
+				789E8BA6204CE2A6005DB5A4 /* TFQRCode.bundle */,
+				786116132016C1B200C2D690 /* TFQRCodeGenerateManager.h */,
+				786116142016C1B200C2D690 /* TFQRCodeGenerateManager.m */,
+				787D23592043AEB200BCE7D4 /* TFBarcodeGenerateManager.h */,
+				787D235A2043AEB200BCE7D4 /* TFBarcodeGenerateManager.m */,
+				78844DD02043D1A200A59C6C /* TFCodeScanManager.h */,
+				78844DD12043D1A200A59C6C /* TFCodeScanManager.m */,
+				78844DE02043E9CD00A59C6C /* TFCodeHelperTool.h */,
+				78844DE12043E9CD00A59C6C /* TFCodeHelperTool.m */,
+				78844DE52043EBB200A59C6C /* TFCodeScanningView.h */,
+				78844DE62043EBB200A59C6C /* TFCodeScanningView.m */,
+				7893E2BE204527CD00454DE1 /* TFCodeAlbumManager.h */,
+				7893E2BF204527CD00454DE1 /* TFCodeAlbumManager.m */,
+				78844DEB2043EBE200A59C6C /* TFCode.h */,
+			);
+			path = TFQRCodeManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		789401AC2015D2660027BACF /* TFQRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 789401D92015D2670027BACF /* Build configuration list for PBXNativeTarget "TFQRCode" */;
+			buildPhases = (
+				789401A92015D2660027BACF /* Sources */,
+				789401AA2015D2660027BACF /* Frameworks */,
+				789401AB2015D2660027BACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFQRCode;
+			productName = TFQRCode;
+			productReference = 789401AD2015D2660027BACF /* TFQRCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		789401C42015D2660027BACF /* TFQRCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 789401DC2015D2670027BACF /* Build configuration list for PBXNativeTarget "TFQRCodeTests" */;
+			buildPhases = (
+				789401C12015D2660027BACF /* Sources */,
+				789401C22015D2660027BACF /* Frameworks */,
+				789401C32015D2660027BACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				789401C72015D2660027BACF /* PBXTargetDependency */,
+			);
+			name = TFQRCodeTests;
+			productName = TFQRCodeTests;
+			productReference = 789401C52015D2660027BACF /* TFQRCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		789401CF2015D2670027BACF /* TFQRCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 789401DF2015D2670027BACF /* Build configuration list for PBXNativeTarget "TFQRCodeUITests" */;
+			buildPhases = (
+				789401CC2015D2670027BACF /* Sources */,
+				789401CD2015D2670027BACF /* Frameworks */,
+				789401CE2015D2670027BACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				789401D22015D2670027BACF /* PBXTargetDependency */,
+			);
+			name = TFQRCodeUITests;
+			productName = TFQRCodeUITests;
+			productReference = 789401D02015D2670027BACF /* TFQRCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		789401A52015D2660027BACF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "张睿";
+				TargetAttributes = {
+					789401AC2015D2660027BACF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					789401C42015D2660027BACF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 789401AC2015D2660027BACF;
+					};
+					789401CF2015D2670027BACF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 789401AC2015D2660027BACF;
+					};
+				};
+			};
+			buildConfigurationList = 789401A82015D2660027BACF /* Build configuration list for PBXProject "TFQRCode" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 789401A42015D2660027BACF;
+			productRefGroup = 789401AE2015D2660027BACF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				789401AC2015D2660027BACF /* TFQRCode */,
+				789401C42015D2660027BACF /* TFQRCodeTests */,
+				789401CF2015D2670027BACF /* TFQRCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		789401AB2015D2660027BACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7893E2C520452CB500454DE1 /* TFCodeAlbumViewController.xib in Resources */,
+				7893E2B8204508EB00454DE1 /* TFCodeDetailViewController.xib in Resources */,
+				78844DCF2043B5D200A59C6C /* TFBarcodeGenerateController.xib in Resources */,
+				789401BD2015D2660027BACF /* LaunchScreen.storyboard in Resources */,
+				789401BA2015D2660027BACF /* Assets.xcassets in Resources */,
+				78844DCA2043B07200A59C6C /* TFQRCodeGenerateController.xib in Resources */,
+				789401B82015D2660027BACF /* Main.storyboard in Resources */,
+				789E8BA7204CE2A6005DB5A4 /* TFQRCode.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789401C32015D2660027BACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789401CE2015D2670027BACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		789401A92015D2660027BACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789401B52015D2660027BACF /* ViewController.m in Sources */,
+				789401C02015D2660027BACF /* main.m in Sources */,
+				78844DC92043B07200A59C6C /* TFQRCodeGenerateController.m in Sources */,
+				78844DEE2043FE1F00A59C6C /* TFQRCodeScaningController.m in Sources */,
+				78844DD22043D1A200A59C6C /* TFCodeScanManager.m in Sources */,
+				78844DCE2043B5D200A59C6C /* TFBarcodeGenerateController.m in Sources */,
+				7893E2BC2045246900454DE1 /* TFBarCodeViewController.m in Sources */,
+				78844DE22043E9CD00A59C6C /* TFCodeHelperTool.m in Sources */,
+				786116152016C1B200C2D690 /* TFQRCodeGenerateManager.m in Sources */,
+				7893E2C420452CB500454DE1 /* TFCodeAlbumViewController.m in Sources */,
+				789401B22015D2660027BACF /* AppDelegate.m in Sources */,
+				7893E2C0204527CD00454DE1 /* TFCodeAlbumManager.m in Sources */,
+				78844DE72043EBB200A59C6C /* TFCodeScanningView.m in Sources */,
+				7893E2B7204508EB00454DE1 /* TFCodeDetailViewController.m in Sources */,
+				787D235B2043AEB200BCE7D4 /* TFBarcodeGenerateManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789401C12015D2660027BACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78844DE32043E9CD00A59C6C /* TFCodeHelperTool.m in Sources */,
+				78844DEF2043FE1F00A59C6C /* TFQRCodeScaningController.m in Sources */,
+				78844DE82043EBB200A59C6C /* TFCodeScanningView.m in Sources */,
+				789401CA2015D2670027BACF /* TFQRCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789401CC2015D2670027BACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78844DE42043E9CD00A59C6C /* TFCodeHelperTool.m in Sources */,
+				78844DF02043FE1F00A59C6C /* TFQRCodeScaningController.m in Sources */,
+				78844DE92043EBB200A59C6C /* TFCodeScanningView.m in Sources */,
+				789401D52015D2670027BACF /* TFQRCodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		789401C72015D2660027BACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 789401AC2015D2660027BACF /* TFQRCode */;
+			targetProxy = 789401C62015D2660027BACF /* PBXContainerItemProxy */;
+		};
+		789401D22015D2670027BACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 789401AC2015D2660027BACF /* TFQRCode */;
+			targetProxy = 789401D12015D2670027BACF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		789401B62015D2660027BACF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				789401B72015D2660027BACF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		789401BB2015D2660027BACF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				789401BC2015D2660027BACF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		789401D72015D2670027BACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		789401D82015D2670027BACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		789401DA2015D2670027BACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48J8UJB93W;
+				INFOPLIST_FILE = TFQRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoundedTest.TF.TFQRCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		789401DB2015D2670027BACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48J8UJB93W;
+				INFOPLIST_FILE = TFQRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoundedTest.TF.TFQRCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		789401DD2015D2670027BACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48J8UJB93W;
+				INFOPLIST_FILE = TFQRCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoundedTest.TF.TFQRCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFQRCode.app/TFQRCode";
+			};
+			name = Debug;
+		};
+		789401DE2015D2670027BACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48J8UJB93W;
+				INFOPLIST_FILE = TFQRCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoundedTest.TF.TFQRCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFQRCode.app/TFQRCode";
+			};
+			name = Release;
+		};
+		789401E02015D2670027BACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48J8UJB93W;
+				INFOPLIST_FILE = TFQRCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoundedTest.TF.TFQRCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TFQRCode;
+			};
+			name = Debug;
+		};
+		789401E12015D2670027BACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48J8UJB93W;
+				INFOPLIST_FILE = TFQRCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoundedTest.TF.TFQRCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TFQRCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		789401A82015D2660027BACF /* Build configuration list for PBXProject "TFQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789401D72015D2670027BACF /* Debug */,
+				789401D82015D2670027BACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		789401D92015D2670027BACF /* Build configuration list for PBXNativeTarget "TFQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789401DA2015D2670027BACF /* Debug */,
+				789401DB2015D2670027BACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		789401DC2015D2670027BACF /* Build configuration list for PBXNativeTarget "TFQRCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789401DD2015D2670027BACF /* Debug */,
+				789401DE2015D2670027BACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		789401DF2015D2670027BACF /* Build configuration list for PBXNativeTarget "TFQRCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789401E02015D2670027BACF /* Debug */,
+				789401E12015D2670027BACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 789401A52015D2660027BACF /* Project object */;
+}
